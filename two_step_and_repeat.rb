@@ -7,13 +7,22 @@ sleep(0.5)
 puts "Right foot back"
 sleep(0.5)
 puts "Stop"
+sleep(1)
   # Write a loop that outputs "Right foot back", "Left foot back",
   # "Right foot back", and "Stop", with sleep after each
-end
+  end
 end
 # first_steps
 def a_few_more_steps
 loop do
+  puts "Right foot back"
+  sleep(0.5)
+  puts "Left foot back"
+  sleep(0.5)
+  puts "Right foot back"
+  sleep(0.5)
+  puts "Stop"
+  sleep(1)
   puts "Right foot steps right and back"
   sleep(0.5)
   puts "Left foot crosses over right"
@@ -30,12 +39,12 @@ def how_many_steps?
   steps = 0
   until steps == 30
       steps += 1
-      puts steps
+       puts steps
   if(steps%2 == 0)
     puts "left"
   else
     puts "right"
-end
+  end
 sleep(0.5)
 end
 end
@@ -43,12 +52,12 @@ end
 
 def break_dance
   steps = 0
-loop do
-      steps += 1
-      puts steps
-if steps>10
-    puts "STOP!"
-    break
-end
-end
+  loop do
+    steps += 1
+    puts steps
+    if steps>10
+        puts "STOP!"
+        break
+    end
+  end
 end
