@@ -32,7 +32,7 @@ loop do
   puts "Turn"
   sleep(1)
   # Write a loop that outputs the first two sets of steps in the Two-Step
-end
+  end
 end
 # a_few_more_steps
 def how_many_steps?
@@ -44,9 +44,9 @@ def how_many_steps?
     puts "left"
   else
     puts "right"
-  end
+    end
 sleep(0.5)
-end
+  end
 end
 # how_many_steps?
 
@@ -63,7 +63,7 @@ def break_dance
     sleep(0.5)
     if (steps==6)
       break
+    end
   end
-end
 end
 break_dance
